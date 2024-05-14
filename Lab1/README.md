@@ -24,5 +24,32 @@
 ### 2.2 Docker Images
 ![alt text](<Screenshots/Screenshot 2024-05-14 at 6.31.55 PM.png>)
 
-## Section 3 Screenshots
+### 2.3 Create your first image
+
+#### 2.3.2 Write a Dockerfile
+
+Dockerfile has been included in the Lab1 directory.
+
+#### 2.3.3 Build the image screenshots
+![alt text](<Screenshots/Screenshot 2024-05-16 10.png>)
+
+#### 2.3.4 Run your image scheenshots
+![alt text](<Screenshots/Screenshot 2024-05-16 11.png>)
+
+#### 2.3.4 Push your image schreenshots
+![alt text](<Screenshots/Screenshot 2024-05-16 12.png>)
+
+## Section 3.0 Deploying an app to a Swarm Screenshots
+
+### 3.1 Deploying the app
+![alt text](<Screenshots/Screenshot 2024-05-16 13.png>)
+![alt text](<Screenshots/Screenshot 2024-05-16 14.png>)
+
+### 3.2 Customize the app
+
+#### 3.2.1 Change the images used
+
+
+
+
 
