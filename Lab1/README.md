@@ -1,5 +1,9 @@
 # LAB 1
 
+Link to the Docker image pushed to Docker Hub -> https://hub.docker.com/r/choudharynitu/myreactapp
+
+# All Screenshots
+
 ## Setup Screenshots
 ![alt text](<Screenshots/Screenshot 2024-05-10 at 12.19.54 PM.png>)
 
@@ -11,7 +15,7 @@
 ![alt text](<Screenshots/Screenshot 2024-05-10 at 12.43.30 PM.png>)
 
 ## Section 2.0 Webapps with Docker Screenshots
-
+The directory example-app-setion2 contains the code of simple 
 ### 2.1 Run a static website in a container
 ![alt text](<Screenshots/Screenshot 2024-05-10 at 1.57.28 PM.png>)
 
