@@ -47,8 +47,8 @@ Dockerfile has been included in the Lab1 directory.
 
 ### 3.2 Customize the app
 
-#### 3.2.1 Change the images used
-
+![alt text](<Screenshots/Screenshot 2024-05-18 at 11.24.28 PM.png>)
+![alt text](<Screenshots/Screenshot 2024-05-19 at 10.25.25 AM.png>)
 
 
 
