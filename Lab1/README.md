@@ -2,6 +2,7 @@
 
 Link to the Docker image pushed to Docker Hub -> https://hub.docker.com/r/choudharynitu/myreactapp
 
+- Nitu Choudhary, 101529339
 # All Screenshots
 
 ## Setup Screenshots
