@@ -10,3 +10,5 @@
 ![alt text](<Screenshots/Screenshot 2.png>)
 
 ## Quiz
+
+[text](KubernetesQuiz_Nitu.pdf)
