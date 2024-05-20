@@ -11,4 +11,4 @@
 
 ## Quiz
 
-[text](KubernetesQuiz_Nitu.pdf)
+[Quiz PDF](KubernetesQuiz_Nitu.pdf)
