@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ganache-deployment
+  name: react-deployment
   labels:
-    app: ganache
+    app: react
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ganache
+      app: react
   template:
     metadata:
       labels:
-        app: ganache
+        app: react
     spec:
       containers:
-        - name: ganache
-          image: schadokar/eth-ganache:1.0.0
+        - name: react
+          image: schadokar/eth-react:1.0.0
           ports:
-            - containerPort: 8545
+            - containerPort: 80

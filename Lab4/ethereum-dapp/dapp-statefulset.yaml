@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: dapp-statefulset
+  labels:
+    app: dapp
+spec:
+  serviceName: "dapp-service"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dapp
+  template:
+    metadata:
+      labels:
+        app: dapp
+    spec:
+      containers:
+        - name: dapp
+          image: schadokar/eth-server:1.0.0
+          ports:
+            - containerPort: 4000
