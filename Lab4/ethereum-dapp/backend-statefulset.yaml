@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: ethereum
+  name: ethereum-backend
 spec:
   serviceName: "ethereum"
   replicas: 3
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: ethereum
-        image: ethereum/client-go:latest
+        image: schadokar/eth-server:1.0.0
         ports:
         - containerPort: 8545
         volumeMounts:
