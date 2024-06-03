@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: ethereum
+spec:
+  serviceName: "ethereum"
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ethereum
+  template:
+    metadata:
+      labels:
+        app: ethereum
+    spec:
+      containers:
+      - name: ethereum
+        image: ethereum/client-go:latest
+        ports:
+        - containerPort: 8545
+        volumeMounts:
+        - name: ethereum-data
+          mountPath: /root/.ethereum
+      volumes:
+      - name: ethereum-data
+        persistentVolumeClaim:
+          claimName: ethereum-pvc
