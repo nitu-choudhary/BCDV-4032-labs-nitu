@@ -17,7 +17,10 @@ spec:
       - name: ethereum
         image: schadokar/eth-server:1.0.0
         ports:
-        - containerPort: 8545
+        - containerPort: 4000
+        env:
+        - name: GANACHE_URL
+          value: "http://ganache:8545"
         volumeMounts:
         - name: ethereum-data
           mountPath: /root/.ethereum
